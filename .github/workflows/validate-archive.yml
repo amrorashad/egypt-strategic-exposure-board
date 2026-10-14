@@ -1,0 +1,21 @@
+name: Verify Egypt intelligence archive
+on:
+  pull_request:
+    paths:
+      - 'data/months.json'
+      - 'scripts/validate_months.py'
+  push:
+    branches: [main]
+    paths:
+      - 'data/months.json'
+      - 'scripts/validate_months.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate source-linked monthly archive
+        run: python3 scripts/validate_months.py data/months.json
