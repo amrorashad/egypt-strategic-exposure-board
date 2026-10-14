@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "baseline": "CIQ-GEO-2026-10-14",
+  "snapshots": [
+    {
+      "id": "2026-10-interim",
+      "month": "2026-10",
+      "period": "interim",
+      "label": "October 2026 \u2014 interim baseline",
+      "as_of": "2026-10-14",
+      "published": "2026-10-14",
+      "reference_baseline": "CIQ-GEO-2026-10-14",
+      "indicators": {
+        "direct": {
+          "status": "unknown",
+          "observation": "No independently established new October confrontation"
+        },
+        "gaza": {
+          "status": "fragile",
+          "observation": "Ceasefire implementation remains stalled"
+        },
+        "economic": {
+          "status": "elevated",
+          "observation": "Energy imports and shipping exposure remain elevated"
+        },
+        "maritime": {
+          "status": "elevated",
+          "observation": "Hormuz attacks and disruptions reported"
+        },
+        "diplomatic": {
+          "status": "fragile",
+          "observation": "Mediation framework under strain"
+        }
+      },
+      "numeric_metrics": {},
+      "sources": [
+        "https://www.reuters.com/world/middle-east/iran-shifting-tactics-step-up-attacks-shipping-before-us-vote-officials-say-2026-10-14/",
+        "https://palestine.un.org/en/324294-one-year-after-ceasefire-announcement-killings-continue-across-gaza",
+        "https://tomerenergy.co.il/en/immediate-reports/"
+      ]
+    }
+  ]
+}

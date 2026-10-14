@@ -1,11 +1,12 @@
-# CATALYSTIQ Egypt Strategic Exposure Board
+# CATALYSTIQ — Free Egypt Strategic Exposure Board
 
-Free GitHub Pages version, initial snapshot: 14 October 2026.
+Hosted using GitHub Pages; no paid hosting required.
 
-## Publish
-1. Create a **public** GitHub repository named `egypt-strategic-exposure-board`.
-2. Upload `index.html` at the repository root and commit it to `main`.
-3. In repository Settings > Pages, select **Deploy from a branch**, `main`, `/ (root)`, and Save.
-4. The eventual URL should be `https://YOUR-USERNAME.github.io/egypt-strategic-exposure-board/`.
+## Upgrade deployment
+Upload `index.html`, replacing existing root file. Upload `data/months.json` in the `data` folder. GitHub Pages will redeploy automatically after commits.
 
-This is an *initial static snapshot*. It does not auto-fetch current intelligence or automatically publish monthly updates. Future versions can read verified month-by-month JSON data. Never publish confidential information in a public repo.
+## Monthly editions
+Add a source-verified entry to `data/months.json` under `snapshots`. Only confirmed historical editions; never fabricate missing months. Required fields: `id`, `month` (YYYY-MM), `period` (`interim`/`complete`), `label`, `as_of` (YYYY-MM-DD), `reference_baseline` (`CIQ-GEO-2026-10-14`), `indicators` with domains `direct`, `gaza`, `economic`, `maritime`, `diplomatic` and status/observation each, `numeric_metrics` and `sources` source URLs. A new snapshot automatically becomes a selectable archived edition and extends the categorical charts; never use made-up risk scores.
+
+## Important limitations
+GitHub Pages is free hosting, **not** automatic verified news research. To publish unattended monthly news requires a trusted source ingestion and verification pipeline plus GitHub repository write access. The current ChatGPT GitHub integration previously returned HTTP 403 for writes, so this upgrade is provided as a manual upload package unless permissions change. The visible verification date prevents old content being presented as current.
