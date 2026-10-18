@@ -4,11 +4,17 @@ on:
     paths:
       - 'data/months.json'
       - 'scripts/validate_months.py'
+      - 'index.html'
+      - 'scripts/validate_military_indicators.py'
+      - '.github/workflows/validate-archive.yml'
   push:
     branches: [main]
     paths:
       - 'data/months.json'
       - 'scripts/validate_months.py'
+      - 'index.html'
+      - 'scripts/validate_military_indicators.py'
+      - '.github/workflows/validate-archive.yml'
   workflow_dispatch:
 permissions:
   contents: read
@@ -19,3 +25,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Validate source-linked monthly archive
         run: python3 scripts/validate_months.py data/months.json
+      - name: Validate military mission indicators
+        run: python3 scripts/validate_military_indicators.py index.html
