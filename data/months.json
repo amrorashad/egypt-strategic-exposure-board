@@ -6,7 +6,7 @@
       "id": "2026-10-interim",
       "month": "2026-10",
       "period": "interim",
-      "label": "October 2026 \u2014 interim baseline",
+      "label": "October 2026 — interim baseline",
       "as_of": "2026-10-14",
       "published": "2026-10-14",
       "reference_baseline": "CIQ-GEO-2026-10-14",
@@ -37,6 +37,103 @@
         "https://www.reuters.com/world/middle-east/iran-shifting-tactics-step-up-attacks-shipping-before-us-vote-officials-say-2026-10-14/",
         "https://palestine.un.org/en/324294-one-year-after-ceasefire-announcement-killings-continue-across-gaza",
         "https://tomerenergy.co.il/en/immediate-reports/"
+      ]
+    },
+    {
+      "id": "2026-10-25-interim",
+      "month": "2026-10",
+      "period": "interim",
+      "label": "25 October 2026 — interim intelligence assessment",
+      "as_of": "2026-10-25",
+      "published": "2026-10-25",
+      "reference_baseline": "CIQ-GEO-2026-10-14",
+      "indicators": {
+        "direct": {
+          "status": "unknown",
+          "observation": "Egypt–Saudi assistance: 19 Oct parliamentary vote postponed to 26 Oct; Sisi's 21 Oct statement limits proposed role to defence of Saudi territory/borders, not attacks on Yemen. No verified authorization or Egyptian deployment as of assessment. Direct Egypt–Israel confrontation also unestablished."
+        },
+        "gaza": {
+          "status": "fragile",
+          "observation": "No independently substantiated material reversal of the fragile/stalled Gaza ceasefire framework from 14 Oct baseline in this review; implementation remains uncertain."
+        },
+        "economic": {
+          "status": "elevated",
+          "observation": "Regional shipping and energy-cost exposure remains elevated; no verified new Egypt-specific LNG cost, Suez revenue or internet-service disruption quantified for this edition."
+        },
+        "maritime": {
+          "status": "elevated",
+          "observation": "Hormuz shipping attacks and regional risk remain elevated. Reuters 23 Oct reported Iranian security officials' alleged plans to target Gulf undersea cables if war resumes; threat is not a verified order, physical attack or confirmed outage."
+        },
+        "diplomatic": {
+          "status": "fragile",
+          "observation": "Makkah Joint Defence Agreement: Saudi Arabia, Pakistan and Türkiye are signatories; Pakistan and Saudi Arabia ratified, Türkiye's parliamentary process pending as of 23–24 Oct. Egypt not a signatory. Iranian ambassador expressed willingness to examine pact, not accession."
+        }
+      },
+      "numeric_metrics": {},
+      "assessment_notes": {
+        "evidence_cutoff": "2026-10-25",
+        "publication_control": "Proposed for review only; publication requires explicit owner approval and successful GitHub validation. Date in published field denotes intended edition date, not proof of publication.",
+        "material_changes_since_baseline": [
+          {
+            "date": "2026-10-19",
+            "topic": "Egypt–Saudi",
+            "event": "Parliamentary vote postponed to 26 October",
+            "confidence": "high",
+            "type": "legal process; no authorization"
+          },
+          {
+            "date": "2026-10-21",
+            "topic": "Egypt–Saudi",
+            "event": "Sisi specified defensive Saudi territory/borders mission and excluded attack on Yemen",
+            "confidence": "high",
+            "type": "official mission scope statement; no deployment"
+          },
+          {
+            "date": "2026-10-20",
+            "topic": "Makkah agreement",
+            "event": "Türkiye submitted pact to parliament for ratification",
+            "confidence": "high",
+            "type": "ratification procedure; not completed"
+          },
+          {
+            "date": "2026-10-23",
+            "topic": "Makkah agreement",
+            "event": "Pakistan Foreign Ministry said Pakistan and Saudi Arabia ratified, Türkiye pending",
+            "confidence": "high",
+            "type": "official ratification status"
+          },
+          {
+            "date": "2026-10-24",
+            "topic": "Iran",
+            "event": "Ambassador said Iran would assess Makkah agreement before deciding whether to support it",
+            "confidence": "high for remarks; no verified accession",
+            "type": "expression of interest"
+          },
+          {
+            "date": "2026-10-23",
+            "topic": "Digital infrastructure",
+            "event": "Reuters reported Iranian officials' alleged contingency plans against Gulf cables",
+            "confidence": "high for reported remarks; insufficient for execution",
+            "type": "reported threat, not damage"
+          }
+        ],
+        "egypt_early_warning": {
+          "signal": "Move from proposed Saudi defence role to parliamentary authorization or verified deployment; formal alliance accession; authenticated cable strike or independently confirmed regional/Egyptian network outage",
+          "status": "Elevated regional risk; direct Egyptian military exposure unverified",
+          "escalation_trigger": "Parliamentary authorization or confirmed mission/deployment; formal accession negotiation/invitation; verified cable damage, major rerouting or material Egyptian connectivity disruption"
+        },
+        "trend_vs_baseline": "Regional exposure elevated; direct Egyptian military trend indeterminate; no authenticated Egypt-specific telecommunications impact.",
+        "corrections_and_limits": "No verified troop counts, probabilities, physical cable attacks, worldwide shutdown or quantitative Egyptian connectivity impact. Threats, diplomatic interest, parliamentary steps and deployments are separate categories."
+      },
+      "sources": [
+        "https://www.reuters.com/world/middle-east/egypt-delays-vote-military-support-saudi-arabia-until-october-26-2026-10-19/",
+        "https://theprint.in/world/sisi-says-egypt-would-defend-saudi-territory-but-rules-out-attack-on-yemen/3078224/",
+        "https://www.reuters.com/world/middle-east/iran-has-detailed-plans-hit-gulf-undersea-cables-if-war-resumes-officials-say-2026-10-23/",
+        "https://www.dawn.com/news/2039364",
+        "https://www.streetinsider.com/Reuters/Turkey%2Bsubmits%2BSaudi-Pakistan%2Bdefence%2Bpact%2Bto%2Bparliament%2Bfor%2Bratification%2C%2Bsources%2Bsay/27209531.html",
+        "https://apnews.com/article/45161652890bf4f3d570347b8aae6b22",
+        "https://apnews.com/article/b96277475d9332672104d223a91eb3db",
+        "https://www.marketscreener.com/news/egypt-calls-for-yemen-talks-as-parliament-weighs-military-support-to-saudi-arabia-ce785cdedc8cf321"
       ]
     }
   ]
