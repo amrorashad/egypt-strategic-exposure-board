@@ -1,0 +1,39 @@
+name: Validate dashboard and succession page
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'succession.html'
+      - 'data/months.json'
+      - '.github/workflows/validate-succession.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'succession.html'
+      - 'data/months.json'
+      - '.github/workflows/validate-succession.yml'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify published page, navigation, baseline and source record
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          root = Path('.')
+          index = (root/'index.html').read_text(encoding='utf-8')
+          succession = (root/'succession.html').read_text(encoding='utf-8')
+          data = json.loads((root/'data/months.json').read_text(encoding='utf-8'))
+          assert 'href="./succession.html"' in index, 'Dashboard missing succession navigation link'
+          assert 'Hassan Mahmoud Rashad' in succession, 'Missing intelligence subject'
+          assert 'https://alhurra.com/48042' in succession, 'Missing attributed analyst source'
+          assert 'NOT a declared candidate' in succession, 'Missing candidacy qualification'
+          assert data['baseline'] == 'CIQ-GEO-2026-10-14', 'Baseline unexpectedly changed'
+          assert len(data['snapshots']) >= 2, 'Historical snapshots unexpectedly missing'
+          print('Dashboard, succession page, source attribution and baseline verified')
+          PY
