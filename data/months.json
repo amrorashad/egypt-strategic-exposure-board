@@ -141,7 +141,7 @@
       "month": "2026-10",
       "period": "complete",
       "label": "October 2026 — completed monthly assessment",
-      "as_of": "2026-10-31",
+      "as_of": "2026-11-01",
       "published": "2026-11-01",
       "reference_baseline": "CIQ-GEO-2026-10-14",
       "indicators": {
@@ -169,7 +169,7 @@
       "numeric_metrics": {},
       "assessment_notes": {
         "evidence_cutoff": "2026-10-31",
-        "publication_control": "DRAFT REVIEW ONLY. The 'published' field is an edition metadata date required by the archive schema, not evidence that this PR was merged or the dashboard deployed. The live Last Verified Update must remain at the last actually merged edition until separately verified.",
+        "publication_control": "DRAFT REVIEW ONLY. The 'published' field is an edition metadata date required by the archive schema, not evidence that this PR was merged or the dashboard deployed. The live Last Verified Update must remain at the last actually merged edition until separately verified. Assessment `as_of` is 1 Nov because the completed October period can only be assessed after 31 Oct; the evidence cutoff remains 31 Oct.",
         "trend_vs_2026_10_14": "Egypt–Saudi military assistance moved from proposal to parliamentary authorization; deployment remains unknown. Gaza remains fragile. Maritime threats have intensified by late October, but some Iranian incident claims remain unverified. Israel's election creates political uncertainty, not a verified change in Egypt's border security.",
         "trend_vs_2026_10_25": "Parliamentary vote outcome is now confirmed (26 Oct), superseding the 25 Oct interim edition's pending-vote status. October 30 Hormuz incidents and October 31 Egyptian diplomatic warning are new; no verified Egyptian troops in Saudi Arabia, physical cable damage, or October LNG/Suez actuals.",
         "evidence_register": [
