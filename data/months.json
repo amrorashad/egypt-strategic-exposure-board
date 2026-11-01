@@ -135,6 +135,113 @@
         "https://apnews.com/article/b96277475d9332672104d223a91eb3db",
         "https://www.marketscreener.com/news/egypt-calls-for-yemen-talks-as-parliament-weighs-military-support-to-saudi-arabia-ce785cdedc8cf321"
       ]
+    },
+    {
+      "id": "2026-10-complete",
+      "month": "2026-10",
+      "period": "complete",
+      "label": "October 2026 — completed monthly assessment",
+      "as_of": "2026-10-31",
+      "published": "2026-11-01",
+      "reference_baseline": "CIQ-GEO-2026-10-14",
+      "indicators": {
+        "direct": {
+          "status": "watch",
+          "observation": "Material change since 14/25 Oct: Egypt's parliament authorized defensive support for Saudi Arabia on 26 Oct. Authorization is verified, but it is NOT proof of a Saudi request, Egyptian deployment, combat engagement or a direct Egypt–Israel confrontation. Mission implementation and force scope remain unverified."
+        },
+        "gaza": {
+          "status": "fragile",
+          "observation": "UN OCHA's 29 Oct Gaza humanitarian situation report (published 31 Oct) documents continuing reported fatalities, security incidents, humanitarian constraints and displacement risks under the ceasefire framework. No independently confirmed full implementation or durable settlement; mediation outcomes remain uncertain."
+        },
+        "economic": {
+          "status": "elevated",
+          "observation": "Egypt remains exposed to energy import costs and regional shipping disruptions. Al Manassa's 21 Sep report described a planned October LNG import allocation based on an EGAS source, not audited October actual expenditure. No independently verified October-specific Suez revenue or final LNG spending figure is entered."
+        },
+        "maritime": {
+          "status": "deteriorating",
+          "observation": "Reuters 30 Oct reported UKMTO-confirmed reports of projectile impacts on tankers near Hormuz; Iranian claims about four tankers and mines were not independently verified. Reuters 23 Oct reported conditional threats to Gulf undersea cables, not confirmed cable damage. Exposure is regional, not proof of Egyptian cable outages."
+        },
+        "diplomatic": {
+          "status": "fragile",
+          "observation": "Egypt's foreign minister warned on 31 Oct that renewed US–Iran escalation would be more destructive. Israel's 27 Oct election left Netanyahu's bloc with 53 of 120 seats (AP final-results report), short of a governing majority; coalition formation and Gaza policy implications remain unresolved."
+        }
+      },
+      "numeric_metrics": {},
+      "assessment_notes": {
+        "evidence_cutoff": "2026-10-31",
+        "publication_control": "DRAFT REVIEW ONLY. The 'published' field is an edition metadata date required by the archive schema, not evidence that this PR was merged or the dashboard deployed. The live Last Verified Update must remain at the last actually merged edition until separately verified.",
+        "trend_vs_2026_10_14": "Egypt–Saudi military assistance moved from proposal to parliamentary authorization; deployment remains unknown. Gaza remains fragile. Maritime threats have intensified by late October, but some Iranian incident claims remain unverified. Israel's election creates political uncertainty, not a verified change in Egypt's border security.",
+        "trend_vs_2026_10_25": "Parliamentary vote outcome is now confirmed (26 Oct), superseding the 25 Oct interim edition's pending-vote status. October 30 Hormuz incidents and October 31 Egyptian diplomatic warning are new; no verified Egyptian troops in Saudi Arabia, physical cable damage, or October LNG/Suez actuals.",
+        "evidence_register": [
+          {
+            "date": "2026-10-26",
+            "topic": "Egypt–Saudi parliamentary authorization",
+            "classification": "confirmed authorization; deployment unknown",
+            "source_url": "https://english.ahram.org.eg/NewsContent/1/1234/580951/Egypt/Foreign-Affairs/Egypts-parliament-authorizes-ElSisi-to-support-and.aspx"
+          },
+          {
+            "date": "2026-10-29",
+            "published": "2026-10-31",
+            "topic": "Gaza humanitarian situation",
+            "classification": "UN report; Gaza Ministry of Health figures attributed, not independently audited",
+            "source_url": "https://www.ochaopt.org/content/humanitarian-situation-report-29-october-2026"
+          },
+          {
+            "date": "2026-10-30",
+            "topic": "Hormuz tanker incidents",
+            "classification": "UKMTO incident reports corroborated; Iranian four-tanker and mine claims unverified",
+            "source_url": "https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-stopped-south-hormuz-after-incidents-2026-10-30/"
+          },
+          {
+            "date": "2026-10-23",
+            "topic": "Gulf undersea cable threats",
+            "classification": "Reuters attributed statements; no verified cable strike or Egyptian outage",
+            "source_url": "https://www.reuters.com/world/middle-east/iran-has-detailed-plans-hit-gulf-undersea-cables-if-war-resumes-officials-say-2026-10-23/"
+          },
+          {
+            "date": "2026-10-31",
+            "topic": "Egyptian foreign minister escalation warning",
+            "classification": "confirmed public remarks",
+            "source_url": "https://www.reuters.com/world/middle-east/egypt-fears-escalation-iran-war-would-be-more-destructive-foreign-minister-says-2026-10-31/"
+          },
+          {
+            "date": "2026-10-30",
+            "topic": "Israel election and coalition uncertainty",
+            "classification": "AP reported final vote count; coalition outcome unknown",
+            "source_url": "https://apnews.com/article/3a793c0d07fdfe515390524b849d8674"
+          },
+          {
+            "date": "2026-10-14",
+            "topic": "Ronen Bar defamation lawsuit",
+            "classification": "filing reported; allegations disputed and not court findings",
+            "source_url": "https://www.timesofisrael.com/ex-shin-bet-chief-files-defamation-suit-against-netanyahu-details-warnings-months-before-oct-7/"
+          },
+          {
+            "date": "2026-09-21",
+            "topic": "October LNG import budget estimate",
+            "classification": "prior-month source-based plan, not realized October actual",
+            "source_url": "https://manassa.news/en/news/34020"
+          }
+        ],
+        "egypt_early_warning": {
+          "signal": "Parliamentary authorization already granted; monitor official Saudi request, Egyptian military deployment orders, force type, duration, mandate and actual engagement; verify direct Red Sea/Suez impact.",
+          "status": "Authorization verified; deployment and engagement unverified",
+          "escalation_trigger": "Authenticated Saudi request and official Egyptian deployment, operational incident, or independently confirmed Egyptian maritime/telecommunications disruption."
+        },
+        "corrections_and_limits": "Do not interpret parliament authorization as actual deployment. Iranian claims of four burning tankers and mined vessels remain unverified. No numerical Egypt-specific military exposure score, troop counts, Suez October receipts, October actual LNG cost, or cable outage claimed. Election result is not formation of a government. Ronen Bar allegations are not judicial findings."
+      },
+      "sources": [
+        "https://english.ahram.org.eg/NewsContent/1/1234/580951/Egypt/Foreign-Affairs/Egypts-parliament-authorizes-ElSisi-to-support-and.aspx",
+        "https://www.reuters.com/world/middle-east/egypt-approves-military-support-saudi-arabia-after-houthi-attacks-escalate-2026-10-26/",
+        "https://www.ochaopt.org/content/humanitarian-situation-report-29-october-2026",
+        "https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-stopped-south-hormuz-after-incidents-2026-10-30/",
+        "https://www.reuters.com/world/middle-east/iran-has-detailed-plans-hit-gulf-undersea-cables-if-war-resumes-officials-say-2026-10-23/",
+        "https://www.reuters.com/world/middle-east/egypt-fears-escalation-iran-war-would-be-more-destructive-foreign-minister-says-2026-10-31/",
+        "https://apnews.com/article/3a793c0d07fdfe515390524b849d8674",
+        "https://www.timesofisrael.com/ex-shin-bet-chief-files-defamation-suit-against-netanyahu-details-warnings-months-before-oct-7/",
+        "https://manassa.news/en/news/34020",
+        "https://www.imo.org/en/mediacentre/pressbriefings/pages/stop-attacking-ships-and-seafarers-imo-secretary-general.aspx"
+      ]
     }
   ]
 }
