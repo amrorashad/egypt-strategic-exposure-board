@@ -1,0 +1,7 @@
+{
+  "test_only": true,
+  "edition_id": "TEST-E2E-2026-10-15",
+  "publication_allowed": false,
+  "baseline_unchanged": "CIQ-GEO-2026-10-14",
+  "note": "Synthetic fixture only. Never merge or publish."
+}
